@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root{
-    --accent-color: #000000;
-    --base-color: hsla(0, 100%, 50%, 1.250);
-    --text-color: #ffffff;                                                                                                                                                                                         
+    --accent-color: black;
+    --base-color: purple;
+    --text-color: #ffffff;                                                                                                                                                                          
 }
 
 *{
@@ -20,7 +20,7 @@ html{
 
 body{
     min-height: 100vh;
-    background-image: url(../img/25fadfc9107b2f5694f037515afaf07c.jpg);
+    background-image: url(../img/oficial.png);
     background-size: cover;
     background-position: right;
     overflow: hidden;
@@ -91,7 +91,7 @@ body{
   }
 
   form input:hover{
-    border-color: var(--accent-color);
+    border-color:  var(--accent-color);
   }
 
   form input:focus{
@@ -100,7 +100,7 @@ body{
   }
 
   div:has(input:focus) > label{
-    background-color: var(--text-color);
+    background-color: transparent;
   }
 
   form input::placeholder{
@@ -112,7 +112,7 @@ body{
     border: none;
     border-radius: 1000px;
     padding: .85em 4em;
-    background-color: var(--accent-color);
+    background-color:  var(--accent-color);
     color: var(--base-color);
     font: inherit;
     font-weight: 600;
@@ -130,7 +130,7 @@ body{
 
   a{
     text-decoration: none;
-    color: var(--accent-color);
+    color: rgb(52, 236, 83);
   }
   a:hover{
     text-decoration: underline;
