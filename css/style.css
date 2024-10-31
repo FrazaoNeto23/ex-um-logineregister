@@ -3,8 +3,7 @@
 :root{
     --accent-color: #000000;
     --base-color: hsla(0, 100%, 50%, 1.250);
-    --text-color: #ffffff;
-    <--input-color: #F3F0FF;      >                                                                                                                                                                                       
+    --text-color: #ffffff;                                                                                                                                                                                         
 }
 
 *{
